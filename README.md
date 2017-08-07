@@ -18,7 +18,7 @@ Private Solo TwDD のオレオレサンプルです。
 バッチファイルは AutoHotkey から呼び出すと便利です。以下は `win + i` でつぶやきを行い、`win + enter` で upload を行うサンプルです（ファイルパスは各自の環境に合わせてください）。
 
 ```ahk
-; localtweet
+; twdd private solo
 #i::run,D:\work\github\stakiran\twdd_private_solo_sample\tweet.bat
 #enter::run,D:\work\github\stakiran\twdd_private_solo_sample\upload.bat
 ```
